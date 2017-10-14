@@ -3,7 +3,7 @@ import pygame
 import sys
 tempo=float(input("tempo"))
 def videoplay(tempo):  
-   clip = (VideoFileClip('/Users/Nora/Desktop/metro_for_TGMB/test.mp4')
+   clip = (VideoFileClip('/Users/Nora/code/metro_for_TGMB/test.mp4')
         .fx( vfx.speedx, tempo/40.0))
    clip.preview()   
 def loopnquit():
